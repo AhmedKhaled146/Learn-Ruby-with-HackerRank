@@ -28,20 +28,37 @@
 # puts key
 # puts value
 
-# solution
-hash = {
-  "one" => 1,
-  "two" => 2,
-  "three" => 3
-}
-hash.each do |value|
-  # puts key
-  puts value
+# solution_1
+def iter_hash(hash)
+  hash.each do |i|
+    # your code here
+    puts i
+  end
 end
-# def iter_hash(hash)
-#   # your code here
-#   hash.each do |key, value|
-#     puts key
-#     puts value
-#   end
-# end
+
+# # solution_2
+def iter_hash(hash)
+  # your code here
+  hash.each do |key, value|
+    puts key
+    puts value
+  end
+end
+
+# # solution_3
+def iter_hash(hash)
+  # your code here
+  hash.each do |key|
+    puts key
+  end
+end
+
+# Example
+hash = {
+  "Arabic" => "AR",
+  "English" => "EN",
+  "French" => "FR"
+}
+hash.each do |key, value|
+  puts "#{key} : #{value}"
+end
