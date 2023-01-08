@@ -1,8 +1,20 @@
 # 19 - Ruby - Strings - introduction
 
+#  --- what is strings in ruby ?
+
+# In Ruby, string is a sequence of one or more characters. It may consist of numbers, letters, or symbols.
+# Here strings are the objects, and apart from other languages, strings are mutable, i.e.
+# strings can be changed in place instead of creating new strings.
+# String’s object holds and manipulates an arbitrary sequence of the bytes that commonly represents
+# a sequence of characters.
+
+# Creating Strings: To create the string, just put the sequence of characters either in double quotes
+# or single quotes. Also, the user can store the string into some variable.
+# In Ruby, there is no need to specify the data type of the variable.
+
 #  ################################ Problem ################################
 
-#Numbers, boolean values and strings are some of the fundamental data types that
+# Numbers, boolean values and strings are some of the fundamental data types that
 # we have explored in our previous challenges. In this set of tutorials,
 # we turn our attention to the data type referred to as String or Text literals.
 

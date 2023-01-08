@@ -1,5 +1,13 @@
 # #  16 - Ruby Hash - Initialization
-#
+
+# -- what is hash in ruby ?
+
+# In Ruby, Hash is a collection of unique keys and their values.
+# Hash is like an Array, except the indexing is done with the help of arbitrary keys of any object type.
+# In Hash, the order of returning keys and their value by various iterators is arbitrary and will
+# generally not be in the insertion order. The default value of Hashes is nil.
+# When a user tries to access the keys which do not exist in the hash, then the nil value is returned.
+
 #  ################################ Problem ################################
 # Hashes, also called associative arrays, are dictionary-like data structures which are similar to arrays.
 # Instead of using integers to index an object, however, hashes use any object as its index.

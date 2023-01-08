@@ -1,5 +1,17 @@
 # #  10 - Ruby Array - Initialization
 
+# -- what is array in ruby ?
+
+# An array is a collection of different or similar items, stored at contiguous memory locations.
+# The idea is to store multiple items of the same type together which can be referred to by a common name.
+# In Ruby, numbers, strings, etc all are primitive types but arrays are of objects type i.e
+# arrays are the collection of ordered, integer-indexed objects
+# which can be store number, integer, string, hash, symbol, objects or even any other array.
+# In general, an array is created by listing the elements which
+# will be separated by commas and enclosed between the square brackets[].
+# Example:
+# ["Geeks", 55, 61, "GFG"]
+
 #  ################################ Problem ################################
 
 # One of the most commonly used data structures in Ruby is a Ruby Array, and below
